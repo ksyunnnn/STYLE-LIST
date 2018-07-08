@@ -29,11 +29,15 @@ header {
   position: fixed;
   top: 0;
   padding: 16px;
+
   .title {
     font-family: 'Advent Pro', sans-serif;
     letter-spacing: 4px;
+    background: #FECA40;
+    color: $white;
+    padding: 4px 8px;
     &:hover {
-      background: darken($white, 15%);
+      background: darken(#FECA40, 15%);
     }
   }
 }
